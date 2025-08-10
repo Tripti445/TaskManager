@@ -3,6 +3,7 @@ package com.example.TaskManager.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigInteger;
@@ -11,14 +12,15 @@ import java.math.BigInteger;
 @Table(name = "tasks_categories")
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 public class TasksCategories {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "task_id")
-    private BigInteger taskId;
+    private Long taskId;
 
 
     @Column(name = "category_id")
-    private BigInteger categoryId;
+    private Long categoryId;
 }

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/TaskManager/src/main/java/com/example/TaskManager/controller/TaskController.java;C:/Users/tript/Desktop/Tripti Java Practice/TaskManager/TaskManager/src/main/java/com/example/TaskManager/model/Categories.java;C:/Users/tript/Desktop/Tripti Java Practice/TaskManager/TaskManager/src/main/java/com/example/TaskManager/model/Tasks.java;C:/Users/tript/Desktop/Tripti Java Practice/TaskManager/TaskManager/src/main/java/com/example/TaskManager/model/TasksCategories.java;C:/Users/tript/Desktop/Tripti Java Practice/TaskManager/TaskManager/src/main/java/com/example/TaskManager/model/Users.java;C:/Users/tript/Desktop/Tripti Java Practice/TaskManager/TaskManager/src/main/java/com/example/TaskManager/repository/TaskRepository.java;C:/Users/tript/Desktop/Tripti Java Practice/TaskManager/TaskManager/src/main/java/com/example/TaskManager/TaskManagerApplication.java;C:/Users/tript/Desktop/Tripti Java Practice/TaskManager/TaskManager/src/test/java/com/example/TaskManager/TaskManagerApplicationTests.java" />
+  </component>
+</project>
