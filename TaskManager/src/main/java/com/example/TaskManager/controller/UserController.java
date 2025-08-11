@@ -16,17 +16,8 @@ public class UserController {
     private final UserService userService;
 
     @Autowired
-    public UserController(UserService userService) { // contsructor injection
+    public UserController(UserService userService) { // constructor injection
         this.userService = userService;
-    }
-
-    @GetMapping
-    public ResponseEntity<List<Users>> getUsers() {
-        List<Users> users = userService.getAllUsers();
-        if (users.isEmpty()) {
-            return new ResponseEntity<>(users,HttpStatus.INTERNAL_SERVER_ERROR);
-        }
-        return ResponseEntity.ok(users);
     }
 
     @PostMapping
@@ -44,4 +35,15 @@ public class UserController {
         userService.addUser(user);
         return new ResponseEntity<>("User added successfully", HttpStatus.CREATED);
     }
+
+    @GetMapping
+    public ResponseEntity<List<Users>> getUsers() {
+        List<Users> users = userService.getAllUsers();
+        if (users.isEmpty()) {
+            return new ResponseEntity<>(users,HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+        return ResponseEntity.ok(users);
+    }
+
+
 }
